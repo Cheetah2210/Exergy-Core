@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "project": "Exergy-Core",
+    "version": "1.0.0",
+    "description": "Unified solid-state thermodynamic and electromagnetic homeostasis matrix.",
+    "license": "CERN-OHL-S-v2.0"
+  },
+  "layer_1_chassis": {
+    "_comment": "The physical boundary and piezoresistive nervous system.",
+    "shell_material": "Carbon-Fiber-Reinforced Carbon (C/C) Ceramic Matrix",
+    "structural_yield_limit_mpa": 450.0,
+    "magnetic_permeability_mu_r": 2500.0,
+    "cnt_nervous_mesh": {
+      "topology": "Piezoresistive Isotropic Grid",
+      "base_resistance_ohms": 120.5,
+      "strain_sensitivity_gauge_factor": 45.0,
+      "critical_fault_threshold_percent": 8.5
+    }
+  },
+  "layer_2_metabolism": {
+    "_comment": "The thermal banking vault and absolute isolation boundary.",
+    "vault_medium": {
+      "composition": "NaCl-AlCl3 (Molten Salt Eutectic)",
+      "latent_heat_capacity_kj_kg": 420.0,
+      "operating_temp_min_c": 160.0,
+      "operating_temp_max_c": 800.0,
+      "degradation_risk_threshold_c": 850.0
+    },
+    "thermal_isolation": {
+      "shield_material": "Fused Quartz Substrate",
+      "vacuum_jacket_pressure_torr": 1.0e-6,
+      "max_allowable_heat_leak_watts": 0.05
+    }
+  },
+  "layer_3_quantum_exergy": {
+    "_comment": "Zero-moving-parts energy extraction and gyroscopic spin stabilization.",
+    "near_field_tpv": {
+      "evanescent_gap_nm": 100.0,
+      "emitter_material": "High-Density Synthetic Graphite",
+      "receiver_bandgap_ev": 0.55
+    },
+    "ambient_graphene_pulse": {
+      "domain_effective_mass_kg": 1.5e-22,
+      "intrinsic_damping_gamma": 2.5e-12,
+      "bistable_buckle_distance_nm": 0.5
+    },
+    "magnetic_spin_trap": {
+      "geometry": "Kinked Carbon Nanotube Array Bottleneck",
+      "resonance_frequency_hz": 110.0,
+      "precession_lock_tolerance_hz": 1.5,
+      "flux_density_target_tesla": 1.2
+    }
+  },
+  "layer_4_brainstem": {
+    "_comment": "Local-first deterministic cyber-physical observer.",
+    "telemetry_protocol": "I2C to MQTT (Local Only)",
+    "adc_polling_interval_ms": 50,
+    "ewma_filtering": {
+      "alpha_smoothing_factor": 0.30,
+      "fault_tolerance_margin": 0.05,
+      "history_buffer_length": 15
+    },
+    "homeostatic_triggers": {
+      "auto_phase_cancellation": true,
+      "thermal_vent_override": false
+    }
+  }
+}

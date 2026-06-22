@@ -1,6 +1,10 @@
-e# Exergy-Core
+# Exergy-Core
 
 The **Exergy-Core** is a unified, solid-state framework for thermodynamic and electromagnetic energy harvesting. It replaces fluid-loop mechanical systems with quantum-resonant graphene fluctuations and molten-salt thermal banking, governed by a deterministic, local-first cyber-physical Brainstem.
+
+## ⚖️ License
+Author: 🌻 Emily 🌻 Cheetahs Creations
+Licensed under the [CERN Open Hardware Licence v1.2](./License.txt).
 
 ## Repository Architecture
 

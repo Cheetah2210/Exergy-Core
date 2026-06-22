@@ -4,7 +4,7 @@ The **Exergy-Core** is a unified, solid-state framework for thermodynamic and el
 
 ## ⚖️ License
 Author: 🌻 Emily 🌻 Cheetahs Creations
-Licensed under the [CERN Open Hardware Licence v1.2] (./cern_ohl_v_1_2.txt).
+Licensed under the [CERN Open Hardware Licence v1.2](./License.txt).
 
 ## Repository Architecture
 
